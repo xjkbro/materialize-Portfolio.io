@@ -1,0 +1,92 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i|Lobster|Lobster+Two:400,400i,700,700i|Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+.lobster {
+  font-family: 'Lobster Two';
+}
+
+html, body {
+  font-family: 'Lato';
+  font-size: 16px;
+  font-weight: 300;
+}
+
+html nav #logo-container, body nav #logo-container {
+  font-family: 'Lobster Two';
+  font-weight: 700;
+}
+
+html #showcase h2, body #showcase h2 {
+  font-family: 'Lobster Two';
+  font-weight: 700;
+  text-shadow: 2px 2px 8px black;
+}
+
+html #showcase p, body #showcase p {
+  font-family: 'Lato';
+  font-size: 20px;
+  font-weight: 300;
+}
+
+html #showcase img, body #showcase img {
+  display: block;
+  width: 100%;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+
+html #content, body #content {
+  padding: 0px 30px;
+}
+
+html #content #about, html #content #skills, html #content #projects, html #content #connect, body #content #about, body #content #skills, body #content #projects, body #content #connect {
+  padding: 30px 0px;
+}
+
+html #content h1, body #content h1 {
+  font-family: 'Lobster Two';
+  font-weight: 700;
+}
+
+html #content h2, body #content h2 {
+  font-family: 'Lobster Two';
+  font-weight: 700;
+}
+
+html #content #about img, body #content #about img {
+  display: block;
+  -o-object-fit: cover;
+     object-fit: cover;
+  width: 300px;
+  height: 300px;
+  min-width: 200px;
+  min-height: 200px;
+  overflow: hidden;
+  margin-left: auto;
+  margin-right: auto;
+  position: relative;
+}
+
+html #content #skills .grid, body #content #skills .grid {
+  padding: 5px;
+  border-radius: 5px;
+  margin: 2px 0px;
+  border: 1px solid #eee;
+  border-color: white;
+}
+
+html #content #projects #setcardstyle, body #content #projects #setcardstyle {
+  max-height: 300px;
+  max-width: 600px;
+}
+
+html #content #testimonials img, body #content #testimonials img {
+  max-height: 70px;
+}
+
+html #content #testimonials span, body #content #testimonials span {
+  padding: 5px;
+}
+
+html footer, body footer {
+  font-size: 14px;
+}
+/*# sourceMappingURL=style.css.map */
